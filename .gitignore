@@ -1,0 +1,14 @@
+# コンパイル済みバイナリ
+*.out
+*.exe
+
+# テストケースと結果
+test/
+tests/
+*.in
+*.txt
+
+# accの一時ファイル
+.acc/
+!/.acc/config.json
+!/.acc/template.json
