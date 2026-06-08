@@ -1,9 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
-using ll = long long;
-#define rep(i, n) for (int i = 0; i < (int)(n); i++)
 
 int main() {
-    // Code here
-    return 0;
+    int N, M;
+    cin >> N >> M;
+    vector<int> A(M), B(M);
+    for (int i = 0; i < M; i++) {
+    cin >> A.at(i) >> B.at(i);
+    }
+
+    
 }
