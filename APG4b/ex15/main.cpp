@@ -18,9 +18,9 @@ int sum(vector<int> scores)
 // 引数 sum_b: B君のテストの合計点
 // 引数 sum_c: C君のテストの合計点
 // 返り値: なし
-void output(int sum_a, int sum_b, int sum_c)
+void output(int sum_A, int sum_B, int sum_C)
 {
-    cout << sum_a * sum_b * sum_c << endl;
+    cout << sum_A * sum_B * sum_C << endl;
 }
 
 // -------------------
