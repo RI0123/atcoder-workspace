@@ -3,8 +3,8 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "C/C++: g++ build active file",
-            "command": "/usr/bin/g++",
+            "label": "C/C++: clang++ build active file",
+            "command": "/usr/bin/clang++",
             "args": [
                 "-g",                     // ⚠️ デバッグに必須のオプション
                 "${fileDirname}/main.cpp",

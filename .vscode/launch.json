@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "C++ Launch (WSL)",
+            "name": "C++ Launch (Clang)",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/a.out",
@@ -20,7 +20,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: g++ build active file" // デバッグ前に自動でビルドを走らせる
+            "preLaunchTask": "C/C++: clang++ build active file" // デバッグ前に自動でビルドを走らせる
         }
     ]
 }
