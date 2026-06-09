@@ -34,7 +34,7 @@ int main() {
 
     saiten(A, correct_count, wrong_count);
 
-    
+
     for (int i = 0; i < 9; i++) {
         for (int j = 0; j < 9; j++) {
             cout << A.at(i).at(j);
