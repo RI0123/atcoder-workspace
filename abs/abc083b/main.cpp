@@ -19,7 +19,7 @@ int main() {
 
     for (int i = 1; i <= N;i++) {
         int sum = GetDigit(i);
-        if (sum >= A && sum <= B) {
+        if (A <= sum && sum <= B) {
             total += i;
         }
     }
