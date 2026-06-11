@@ -15,13 +15,13 @@ int main() {
 
     for (int i = 1; i <= N ; i++) {
         if (std::abs(data[i][1] - data[i-1][1] + data[i][2] - data[i-1][2]) <= std::abs(data[i][0] - data[i - 1][0])) {
-            if (data[i][0] % 2 == 1) {
+            if ((data[i][0] - data[i-1][0])% 2 == 1) {
                 if (std::abs(data[i][1] - data[i-1][1] + data[i][2] - data[i-1][2]) % 2 != 1) {
                     YN = false;
                 }
             }
             else {
-                if (std::abs(data[i][1] - data[i-1][1] + data[i][2] - data[i-1][2]) % 2 != 1) {
+                if (std::abs(data[i][1] - data[i-1][1] + data[i][2] - data[i-1][2]) % 2 == 1) {
                     YN = false;
                 }
             }
